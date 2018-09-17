@@ -1,4 +1,4 @@
-if ($(window).width() <= 900) {
+if ($(window).width() <= 415) {
   document.location = "aboutme.html";
   console.log("screen is less than 900");
 }

@@ -1,4 +1,4 @@
-if ($(window).width() <= 900) {
+if ($(window).width() <= 415) {
   $('#content').css({
     'padding-left': '0%',
     'padding-right': '0%',
