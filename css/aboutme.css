@@ -27,6 +27,10 @@ a {
   color: #CF7A77;
 }
 
+a:hover {
+  color: white;
+}
+
 .projects {
   color: #bcbcbc;
 }

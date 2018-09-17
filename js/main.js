@@ -7,6 +7,7 @@ $('#container').css({
   height: newHeight + 'px'
 });
 
+
 var radius1 = 130; // adjust to move out items in and out
 var fields = $('.orbit1'),
   container = $('#container'),
