@@ -1,4 +1,10 @@
+if ($(window).width() <= 900) {
+  document.location = "aboutme.html";
+  console.log("screen is less than 900");
+}
+
 var windowHeight = $(window).height();
+
 
 var newHeight = windowHeight - 50;
 
@@ -6,7 +12,6 @@ $('#container').css({
   width: newHeight + 'px',
   height: newHeight + 'px'
 });
-
 
 var radius1 = 130; // adjust to move out items in and out
 var fields = $('.orbit1'),
